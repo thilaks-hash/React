@@ -1,0 +1,15 @@
+Q:1: What is Emmet?
+ans:  Emmet is a free add-on for your text editor that allows you to type shortcuts that are then 
+expanded into full pieces of code.
+  Emmet uses different abbreviations and short expressions depending on what's passed, and then 
+  dynamically coverts the abbreviations into the full code. Emmet is mostly used for HTML, XML,CSS but 
+  it can also be used with programming languages.
+  Emmet is a set of plug-ins for text editors that allow for high-speed coding and editing HTML,XML,XSLT
+  and other structed code.
+  
+  Q:2: Difference between library and framework?
+  ans:  Library targets the specific functionality while framework tries to provide everthing required to develop a 
+  complete application
+  
+  Q:3: What is CDN ?Why do we use it?
+  ans:  

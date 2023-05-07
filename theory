@@ -12,4 +12,43 @@ expanded into full pieces of code.
   complete application
   
   Q:3: What is CDN ?Why do we use it?
-  ans:  
+  ans:  A content delivery network (CDN) is a network of interconnected servers that speeds up webpage loading for
+  data-heavy applications. CDN can stand for content delivery network or content distribution network.
+        The mission of a CDN is to reduce latency. Latency is that annoying delay you experience when trying to access
+  a web page or video stream before it fully loads on your device
+  
+  Q:4: Why react known as react?
+  ans:  React is called React because it is a library that reacts to changes in the data and renders the user interface accordingly.
+  The name "React" comes from the concept of reactive programming, which is a programming paradigm that emphasizes the declarative description of
+  the behavior of a system in response to changes in its inputs.
+  
+  
+  Q:5: What is crossorigin in script tag?
+  ans:  The purpose of crossorigin attribute is used to share the resources from one domain to another domain. Basically, 
+  it is used to handle the CORS request. It is used to handle the CORS request that checks whether it is safe to allow for sharing the resources 
+  from other domains. The resources may include Audio, Video, Images, Link or external script that specifies whether to support a cross-origin request or not.
+      CORS: It stands for cross-origin resource sharing. It is a mechanism by which one webpage requests to another domain for fetching out the resource 
+      like audio, video, script, etc. from the third party server without leaking their credentials information. 
+      anonymous: It has a default value. It defines a CORS request which will be sent without passing the credential information.
+      use-credentials: A cross-origin request will be sent with credentials, cookies, and certificate
+      
+      
+  Q:6:what is difference between react and reactdom?
+   ans: React is holds core features of React. So, if we want work in React it is mandatory to inject react into our code.
+      Where as ReactDOM is responsible for DOM manipulations.
+      
+      
+  Q:7: what is difference between react.development.js and react.production.js files via cdn?
+  ans:   The developmet versions are only meant for development, and are not suitable for production. 
+        production version are minified and optimized production versions of React.
+        
+        
+   Q:8: what are async and defer?
+    ans:   HTML parsing goes on and scripts are fetched asynchronously(parallelly) and once the scripts are available, 
+    the scripts are executed. After that only HTML parsing continues.
+      HTMl parsing goes on and scripts are fetched in parallel and only executed once the HTMl parsing is completed.
+
+      Async attribute does not guarantee the order of execution of scripts but defer does.
+      
+
+
